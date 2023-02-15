@@ -100,6 +100,14 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `cmd` the document must not have this tag (`#!tag`)
 - `opt` the document may have this tag (`#tag?`)
 
+
+<details>
+<summary>Expand for preview</summary>
+
+![](assets/previews/dvn-tagsearch.jpg)
+</details>
+
+
 ## Entry and Results
 
 
@@ -115,7 +123,6 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `cmd` Display Tags
 - `opt` Open in DEVONthink or default application (configuration)
 - `ctrl` Reveal in DEVONthink
-
 
 
 
