@@ -227,4 +227,4 @@ You can create custom templates that will be used when creating an *annotation f
 
 [^1]: Optional. Requires the `µBib` Workflow to be installed. DEVONthink will try to automatically extract DOIs from documents. However, this does not always succeed. You can help DEVONthink out by adding a custom metadata field with the identifier `DOI`. [µBib on Github](https://www.github.com/zeitlings/alfred-ubib/) (`WIP`).
 
-[^2]: Attention! Potentially replaces preconfigured data if the custom metadata identifier for *Linked Records* (`mdlinkedrecords`) is already used. Change this value in the configuration to avoid conflicts if necessary.
+[^2]: Attention! Potentially replaces preconfigured data if the custom metadata identifier for *Linked Records* (`mdlinkedrecords`) is already used. Change this value in the configuration to avoid conflicts if necessary. 
