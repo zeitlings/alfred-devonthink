@@ -3,7 +3,7 @@
     <img src="assets/devonthink_icon.png" width="100" height="100"></br>
     DEVONthink 3 Portal</br>
     <a href="https://github.com/zeitlings/alfred-devonthink/releases"><img src="https://img.shields.io/github/v/release/zeitlings/alfred-devonthink.svg" alt="GitHub Release"></a>
-    <a href="#"><img src="https://img.shields.io/static/v1?label=beta&message=testing&color=informational"></a>
+    <a href="#"><img src="https://img.shields.io/static/v1?label=α&message=testing&color=informational"></a>
 <a href="#"><img src="https://img.shields.io/static/v1?label=&message=Work%20in%20Progress&color=red"></a>
 
 </h1>
@@ -88,7 +88,7 @@ Within the database root or some folder, the asterisk `*` will return all conten
 
 Queries can be refined with tags at any point. Type the octothorp symbol and start entering the name of the desired tag. The workflow will auto suggest tags from your DEVONthink databases. 
 
-Tags come in three flavors: `#tag #tag? #!tag`
+Tags come in three flavors:
 - `#tag` defines a strict requirement (show only documents that have this tag)
 - `#tag?` defines an optional requirement (show documents that either have this tag, or another optional tag)
 - `#!tag` defines a tag that is to be excluded (do not show documents that have this tag)
@@ -111,7 +111,7 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 ![](assets/previews/dvn-dbs1.jpg)
 
 ![](assets/previews/dvn-db-search.jpg)
-- `default` Enter Record Action for Record
+- `default` Enter Record Action
 - `cmd` Display Tags
 - `opt` Open in DEVONthink or default application (configuration)
 - `ctrl` Reveal in DEVONthink
@@ -127,7 +127,6 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `cmd+C` Copy item link or page link if the record is open in a DEVONthink document window (configuration)
 - `cmd+shift` Copy Markdown Link
 - `opt` Reveal in DEVONthink
-- drag and drop anywhere 
 
 `⌘8` Instances (configuration)
 <details>
