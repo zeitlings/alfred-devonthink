@@ -208,22 +208,23 @@ You can create custom templates that will be used when creating an *annotation f
 - `%minute%`
 
 
-# Plugins
+## Plugins
 
-- µBib
-    - `WIP`
-- PDF Expert
-    - Copy the DEVONthink page link for the page currently viewed in PDF Expert
+- **µBib** `WIP`
+- **PDF Expert** Copy the DEVONthink page link for the page currently viewed in PDF Expert
+
+
+## Configuration
 
 
 # Notes
 
 - Supports DEVONthink 3.8.7 or later. Version 3.8.7 brought breaking changes to the scripting bridge.
-- TIP: Fine-tuning the threshold becomes more interesting the larger your database grows. High thresholds for small databases can be detrimental to accuracy.
+- `Tip` Fine-tuning the threshold becomes more interesting the larger your database grows. High thresholds for small databases can be detrimental to accuracy.
 
-# Endnotes
+<!-- # Endnotes -->
 
 
-- [^1]: Optional. Requires the `µBib` Workflow to be installed. DEVONthink will try to automatically extract DOIs from documents. However, this does not always succeed. You can help DEVONthink out by adding a custom metadata field with the identifier `DOI`. [µBib on Github](https://www.github.com/zeitlings/alfred-ubib/) (`WIP`).
+[^1]: Optional. Requires the `µBib` Workflow to be installed. DEVONthink will try to automatically extract DOIs from documents. However, this does not always succeed. You can help DEVONthink out by adding a custom metadata field with the identifier `DOI`. [µBib on Github](https://www.github.com/zeitlings/alfred-ubib/) (`WIP`).
 
-- [^2]: Attention! Potentially replaces preconfigured data if the custom metadata identifier for *Linked Records* (`mdlinkedrecords`) is already used. Change this value in the configuration to avoid conflicts if necessary.
+[^2]: Attention! Potentially replaces preconfigured data if the custom metadata identifier for *Linked Records* (`mdlinkedrecords`) is already used. Change this value in the configuration to avoid conflicts if necessary.
