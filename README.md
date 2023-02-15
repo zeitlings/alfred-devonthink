@@ -4,6 +4,8 @@
     DEVONthink 3 Portal</br>
     <a href="https://github.com/zeitlings/alfred-devonthink/releases"><img src="https://img.shields.io/github/v/release/zeitlings/alfred-devonthink.svg" alt="GitHub Release"></a>
     <a href="#"><img src="https://img.shields.io/static/v1?label=beta&message=testing&color=informational"></a>
+<a href="#"><img src="https://img.shields.io/static/v1?label=&message=Work%20in%20Progress&color=red"></a>
+
 </h1>
 
 **Use A** ` dvn [ ] [ . ] [ {query} ] `
@@ -15,6 +17,7 @@
 **Use B** ` ddvn [ {query} ] `  
 - `ddvn {query}` triggers a file filter brute-force search (fast)
 
+![](assets/previews/dvn-entry.jpg)
 
 ## Feature Overview (Selection)
 
