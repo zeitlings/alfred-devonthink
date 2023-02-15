@@ -133,6 +133,7 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `cmd` Open in default application or in DEVONthink (configuration)
 - `cmd+C` Copy item link or page link if the record is open in a DEVONthink document window (configuration)
 - `cmd+shift` Copy Markdown Link
+- `opt+shift` Copy page link (unless set as default in configuration)
 - `opt` Reveal in DEVONthink
 
 `⌘8` Instances (configuration)
