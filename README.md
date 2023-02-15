@@ -123,6 +123,8 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `cmd` Display Tags
 - `opt` Open in DEVONthink or default application (configuration)
 - `ctrl` Reveal in DEVONthink
+- `shift` or `cmd+Y` Quick Look Preview
+- `cmd+L` Large Type showing the file name, location, and tags
 
 
 
