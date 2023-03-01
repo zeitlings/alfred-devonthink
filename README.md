@@ -170,7 +170,7 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 ![](assets/previews/dvn-instances.jpg)
 </details></br>
 
-`⌘9` Create Annotation File (see `Annotation Templates` below)
+`⌘9` Create Annotation File for the Record (See [`Annotation Templates`](#annotation-templates) below)
 
 ![](assets/previews/dvn-record-action2.jpg)
 
