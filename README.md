@@ -133,14 +133,15 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 
 ![](assets/previews/dvn-record-action1.jpg)
 
-`⌘2` Main Record
-| Modifier 	| Action |
-|:--	|:--	|
-| `cmd`  	| Open in default application or in DEVONthink (configuration) |
-| `cmd+c` 	| Copy item link or page link if the record is open in a DEVONthink document window (configuration) |
-| `cmd+shift` 	| Copy Markdown Link |
-| `opt+shift` 	| Copy page link (unless set as default in configuration) |
-| `opt` 	| Reveal in DEVONthink |
+#### `⌘2` Main Record
+<!-- |`⌘2` Main Record | | -->
+| Modifier 	| Action 	| Configuration 	|
+|---:	|:---	|:---:	|
+| `cmd`  	| Open in default application or in DEVONthink 	| ● 	|
+| `cmd+c` 	| Copy item link or page link if the record is open in a DEVONthink document window 	| ● 	|
+| `cmd+shift` 	| Copy Markdown Link 	|  	|
+| `opt+shift` 	| Copy page link (unless set as default) 	| ● 	|
+| `opt` 	| Reveal in DEVONthink 	|  	|
 
 `⌘8` Instances (configuration)
 <details>
