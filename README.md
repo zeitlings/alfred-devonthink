@@ -120,14 +120,16 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 ![](assets/previews/dvn-dbs1.jpg)
 
 ![](assets/previews/dvn-db-search.jpg)
-- `default` Enter Record Action
-- `cmd` Display Tags
-- `opt` Open in DEVONthink or default application (configuration)
-- `ctrl` Reveal in DEVONthink
-- `shift` or `cmd+Y` Quick Look Preview
-- `cmd+L` Large Type showing the file name, location, and tags
 
-
+#### Search Result
+| Modifier 	| Action 	| Configuration 	|
+|---:	|---	|:---:	|
+| `default` 	| Enter Record Action 	|  	|
+| `cmd` 	| Display Tags 	|  	|
+| `opt` 	| Open in DEVONthink or Default Application 	| ⦿ 	|
+| `ctrl` 	| Reveal in DEVONthink 	|  	|
+| `shift` or `cmd+Y` 	| Quick Look Preview 	|  	|
+| `cmd+L` 	| Large Type showing the File Name, Location and Tags 	|  	|
 
 ## Record Actions
 
