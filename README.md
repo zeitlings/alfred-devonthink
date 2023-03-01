@@ -1,4 +1,3 @@
-
 <h1 align="center">
     <img src="assets/devonthink_icon.png" width="100" height="100"></br>
     DEVONthink 3 Portal</br>
@@ -8,8 +7,25 @@
 
 </h1>
 
+<!--
 **Use A** ` dvn [ ] [ . ] [ {query} ] `
+<table>
+    <tr>
+	<td align="right"><code>dvn </code></td>
+	<td>No input displays all available databases</td>
+    </tr>
+    <tr>
+	<td align="right"><code>dvn .</code></td>
+	<td>Displays global actionable options</td>
+    </tr>
+    <tr>
+	<td align="right"><code>dvn {query}</code></td>
+	<td>Initiate global search</td>
+    </tr>
+</table>
+-->
 
+**Use A** ` dvn [ ] [ . ] [ {query} ] `
 - `dvn ` No input displays all available databases
 - `dvn .` Displays global actionable options
 - `dvn {query}` Initiate global search
@@ -25,16 +41,17 @@
 - Tag Search with auto suggest
 - Document Actions 
     - move, replicate, duplicate, create annotation file, find similar items, etc.
-	- `Extra` Get the BibTeX reference or CSL formatted citation from a DOI or ISBN number. The latter can be generated from an existing BibTeX reference.[^1]
+	- `Extra` Get the BibTeX reference or CSL formatted citation from a DOI or ISBN number.  
+	    The latter can be generated from an existing BibTeX reference.[^1]
 - Multiple Document Actions 
     - move, replicate, open all, **reciprocal linking**, etc. 
     - > __Note__[^2]
 - Navigate the Folder Structure
 - Import New Documents to Location
 - Customizable Annotation Templates
-- Copy Page Link for open PDF documents
 - Colored Labels (customize as needed)
 	- Colored Flags on labeled records
+- Copy Page Link for open PDF Documents
 
 
 ## Actionable Options
