@@ -137,10 +137,10 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 <!-- |`⌘2` Main Record | | -->
 | Modifier 	| Action 	| Configuration 	|
 |---:	|:---	|:---:	|
-| `cmd`  	| Open in default application or in DEVONthink 	| ● 	|
-| `cmd+c` 	| Copy item link or page link if the record is open in a DEVONthink document window 	| ● 	|
+| `cmd`  	| Open in default application or in DEVONthink 	| ⦿ 	|
+| `cmd+c` 	| Copy item link or page link if the record is open in a DEVONthink document window 	| ⦿ 	|
 | `cmd+shift` 	| Copy Markdown Link 	|  	|
-| `opt+shift` 	| Copy page link (unless set as default) 	| ● 	|
+| `opt+shift` 	| Copy page link (unless set as default) 	| ⦿ 	|
 | `opt` 	| Reveal in DEVONthink 	|  	|
 
 `⌘8` Instances (configuration)
