@@ -123,7 +123,7 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 
 #### Search Result
 | Modifier 	| Action 	| Configuration 	|
-|---:	|---	|:---:	|
+|---:	|:--	|:---:	|
 | `default` 	| Enter Record Action 	|  	|
 | `cmd` 	| Display Tags 	|  	|
 | `opt` 	| Open in DEVONthink or Default Application 	| ⦿ 	|
