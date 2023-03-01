@@ -27,7 +27,8 @@
     - move, replicate, duplicate, create annotation file, find similar items, etc.
 	- Extra: Get the BibTeX or formatted citation from DOI, ISBN or the latter from existing BibTeX[^1]
 - Multiple Document Actions 
-    - move, replicate, open all, **reciprocal linking**, etc. (Attention![^2])
+    - move, replicate, open all, **reciprocal linking**, etc. 
+    - > __Note__ [^2]
 - Navigate the Folder Structure
 - Import New Documents to Location
 - Customizable Annotation Templates
@@ -178,6 +179,10 @@ You can push records to Alfreds file buffer to perform actions on all of them, s
 
 ## On Reciprocal Linking
 
+
+> __Warning__  
+> Potentially replaces preconfigured data if the custom metadata identifier `mdlinkedrecords` is already in use. Change this value in the configuration to avoid conflicts if necessary.
+
 <details>
 <summary>Expand to see more information</summary>
 
@@ -227,4 +232,4 @@ You can create custom templates that will be used when creating an *annotation f
 
 [^1]: Optional. Requires the `µBib` Workflow to be installed. DEVONthink will try to automatically extract DOIs from documents. However, this does not always succeed. You can help DEVONthink out by adding a custom metadata field with the identifier `DOI`. [µBib on Github](https://www.github.com/zeitlings/alfred-ubib/) (`WIP`).
 
-[^2]: Attention! Potentially replaces preconfigured data if the custom metadata identifier for *Linked Records* (`mdlinkedrecords`) is already used. Change this value in the configuration to avoid conflicts if necessary. 
+[^2]: Attention! Potentially replaces preconfigured data if the custom metadata identifier for *Linked Records* (`mdlinkedrecords`) is already in use. Change this value in the configuration to avoid conflicts if necessary. 
