@@ -87,20 +87,20 @@ The search behaves the same as in DEVONthink, but by default only returns docume
 - `name:<keyw kind:!ordinarytag` 
 - `keyword {any: tags:affekt*;ratio*}`
 
-This also allows you set up custom hotkeys by providing the desired query as argument to the workflow input.  
+<!-- This also allows you set up custom hotkeys by providing the desired query as argument to the workflow input. -->
 
+> __Note__  
+> Within the database root or any folder, typing an asterisk `*` will return the entire contents of that location.
 
 <details>
-<summary>Reference Location for Search Prefixes</summary>
-<code>file:///Applications/DEVONthink%203.app/Contents/Resources/DEVONthink.help/Contents/Resources/pgs/appendix-searchprefixes.html</code>
+	<summary>Path to local documentation for <b>Search Prefixes</b></summary>
+	<pre>file:///Applications/DEVONthink%203.app/Contents/Resources/DEVONthink.help/Contents/Resources/pgs/appendix-searchprefixes.html</pre>
 </details>
 
 <details>
-<summary>Reference Location for Search Operators</summary>
-<code>file:///Applications/DEVONthink%203.app/Contents/Resources/DEVONthink.help/Contents/Resources/pgs/appendix-operators.html</code>
+	<summary>Path to local documentation for <b>Search Operators</b></summary>
+	<pre>file:///Applications/DEVONthink%203.app/Contents/Resources/DEVONthink.help/Contents/Resources/pgs/appendix-operators.html</pre>
 </details></br>
-
-Within the database root or some folder, the asterisk `*` will return all contents of that location.
 
 ### Tag Search
 
@@ -126,7 +126,7 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 </details>
 
 
-## Entry and Results
+## Entry Point and Search Results
 
 
 ![](assets/previews/dvn-entry.jpg)
@@ -138,23 +138,32 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 
 ![](assets/previews/dvn-db-search.jpg)
 
-#### Search Result
+### Search Results
+
+Press the `⏎` return key to access the [actions](#record-actions) available for the record.
+
 | Modifier 	| Action 	| Configuration 	|
-|---:	|:--	|:---:	|
-| `default` 	| Enter Record Action 	|  	|
+|---:		|:--		|:---:			|
 | `cmd` 	| Display Tags 	|  	|
 | `opt` 	| Open in DEVONthink or Default Application 	| ⦿ 	|
-| `ctrl` 	| Reveal in DEVONthink 	|  	|
+| `ctrl` 	| Reveal in DEVONthink 	|  		|
 | `shift` or `cmd+Y` 	| Quick Look Preview 	|  	|
 | `cmd+L` 	| Large Type showing the File Name, Location and Tags 	|  	|
 | `fn` 		| View the score of the record (responds to the configured *threshold*)	| ⦿ 	|
 
+> __Note__  
+> Press the `⏎` return key while the workflow is retrieving the search results to launch DEVONthink with the given query.
+
 ## Record Actions
 
-![](assets/previews/dvn-record-action1.jpg)
+| ![](assets/previews/dvn-record-action1.jpg) |
+|:--:|
+| Record Actions - A |
 
-#### `⌘2` Main Record
-<!-- |`⌘2` Main Record | | -->
+### ` ⌘2 ` The Main Record
+
+Press the `⏎` return key to open the record in DEVONthink or the default application for the file type (Configuration).
+
 | Modifier 	| Action 	| Configuration 	|
 |---:	|:---	|:---:	|
 | `cmd`  	| Open in default application or in DEVONthink 	| ⦿ 	|
@@ -163,26 +172,51 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 | `opt+shift` 	| Copy page link (unless set as default) 	| ⦿ 	|
 | `opt` 	| Reveal in DEVONthink 	|  	|
 
-`⌘8` Instances (configuration)
+### ` ⌘5 ` Move Record
+
+Press the `⏎` return key to select a new location for the record. If the record has replicants, you will have to decide which instance to move on a subsequent view (Configuration).
+
+### ` ⌘8 ` Instances (Configuration)
+
+Press the `⏎` return key to explore the instances, that is, replicants and duplicates of the record.
+
 <details>
-<summary>Expand Preview</summary>
+<summary>Expand to preview</summary>
 
 ![](assets/previews/dvn-instances.jpg)
 </details></br>
 
-`⌘9` Create Annotation File for the Record (See [`Annotation Templates`](#annotation-templates) below)
+### ` ⌘9 ` Create an Annotation File for the Record
 
-![](assets/previews/dvn-record-action2.jpg)
+If an annotion file already exists for the record, that file is displayed instead.
 
-`⌘2,3` DOI, ISBN
-- `cmd` Get BibTeX or CSL formatted citation via the *µBib Workflow* (WIP)
+> __Note__ See [`Annotation Templates`](#annotation-templates)
 
-`⌘4` BibTeX 
-- `cmd` Get CSL formatted citation via the *µBib Workflow* (WIP)
+---
 
-`⌘7,8`
-- View incoming or outgoing (Wiki) Links or Mentions. 
-- *Linking records* together injects references into the records metadata, which will be registered as incoming or outgoing links by DEVONthink
+| ![](assets/previews/dvn-record-action2.jpg) |
+|:--:|
+| Record Actions - B |
+
+### ` ⌘2 ⌘3 ` DOI and ISBN
+
+| Modifier 	| Action 	| Configuration 	|
+|---:		|:---		|:---:			|
+| `cmd` 	| Get the BibTeX reference or CSL formatted citation via the *µBib Workflow* `(WIP)` | ⦿ |
+| `cmd+c` 	| Copy to clipboard | |
+
+### ` ⌘4 ` BibTeX 
+
+| Modifier 	| Action 	| Configuration 	|
+|---:		|:---		|:---:			|
+| `cmd` 	| Get CSL formatted citation via the *µBib Workflow* `(WIP)` | ⦿ |
+| `cmd+c` 	| Copy to clipboard | |
+
+### ` ⌘7 ⌘8 ` Incoming and Outgoing Links
+
+View incoming or outgoing (wiki) links or mentions. 
+> __Note__  
+> *Linking records* together injects references into the custom metadata of the records, which are registered by DEVONthink as inbound or outbound links. See [`On Reciprocal Linking`](#on-reciprocal-linking)
 
 
 
@@ -222,7 +256,7 @@ The workflow responds to the following DEVONthink custom metadata identifiers:
 - `mddoi`: DOI
 - `mdisbn`: ISBN
 - `mdlink`: Link
-- `mdlinkedrecords`: Linked Records (configuration[^2])
+- `mdlinkedrecords`: Linked Records (Configuration[^2])
 
 
 ## Annotation Templates
