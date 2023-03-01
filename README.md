@@ -65,7 +65,7 @@
 - Load Workspace
 - Save Workspace
 - Find Records similar to a given String
-	- Affected by the `Score Threshold' configuration variable
+	- Affected by the `Score Threshold` configuration variable
 
 **Database Options** Trigger: ` dvn |dbs|2| . `
 
