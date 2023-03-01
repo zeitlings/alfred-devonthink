@@ -147,6 +147,7 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 | `ctrl` 	| Reveal in DEVONthink 	|  	|
 | `shift` or `cmd+Y` 	| Quick Look Preview 	|  	|
 | `cmd+L` 	| Large Type showing the File Name, Location and Tags 	|  	|
+| `fn` 		| View the score of the record (responds to the configured *threshold*)	| ⦿ 	|
 
 ## Record Actions
 
