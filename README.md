@@ -26,23 +26,23 @@
 -->
 
 **Use A** ` dvn [ ] [ . ] [ {query} ] `
-- `dvn ` No input displays all available databases
+- `dvn ` Displays the available databases
 - `dvn .` Displays global actionable options
-- `dvn {query}` Initiate global search
+- `dvn {query}` Initiates global search
 
 **Use B** ` ddvn [ {query} ] `  
-- `ddvn {query}` triggers a file filter brute-force search (fast)
+- `ddvn {query}` Initiates a file filter brute-force search (fast)
 
 ![](assets/previews/dvn-entry.jpg)
 
 ## Feature Overview (Selection)
 
 - Global and Database Search
-- Tag Search with auto suggest
+- Tag Search with Auto Suggest
 - Document Actions 
     - move, replicate, duplicate, create annotation file, find similar items, etc.
-	- >`Extra` Get the BibTeX reference or CSL formatted citation from a DOI or ISBN number.  
-	  > The latter can be generated from an existing BibTeX reference.[^1]
+	- >`Extra` Get the BibTeX reference or CSL formatted citation from a DOI, ISBN or jstore URL.  
+	  > CSL formatted citations can also be generated from an existing BibTeX reference.[^1]
 - Multiple Document Actions 
     - move, replicate, open all, **reciprocal linking**, etc. 
     - > __Note__[^2]
@@ -50,7 +50,7 @@
 - Import New Documents to Location
 - Customizable Annotation Templates
 - Colored Labels (customize as needed)
-	- Colored Flags on labeled records
+	- Colored Flags on Labeled Records
 - Copy Page Link for open PDF Documents
 
 
@@ -64,8 +64,8 @@
 - Filter Smart Groups
 - Load Workspace
 - Save Workspace
-- Find records similar to a given string 
-	- Impacted by the configuration variable `Score Threshold`
+- Find Records similar to a given String
+	- Affected by the `Score Threshold' configuration variable
 
 **Database Options** Trigger: ` dvn |dbs|2| . `
 
