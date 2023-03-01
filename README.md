@@ -25,10 +25,10 @@
 - Tag Search with auto suggest
 - Document Actions 
     - move, replicate, duplicate, create annotation file, find similar items, etc.
-	- Extra: Get the BibTeX or formatted citation from DOI, ISBN or the latter from existing BibTeX[^1]
+	- `Extra` Get the BibTeX reference or CSL formatted citation from a DOI or ISBN number. The latter can be generated from an existing BibTeX reference.[^1]
 - Multiple Document Actions 
     - move, replicate, open all, **reciprocal linking**, etc. 
-    - > __Note__ [^2]
+    - > __Note__[^2]
 - Navigate the Folder Structure
 - Import New Documents to Location
 - Customizable Annotation Templates
@@ -132,12 +132,15 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 ## Record Actions
 
 ![](assets/previews/dvn-record-action1.jpg)
+
 `⌘2` Main Record
-- `cmd` Open in default application or in DEVONthink (configuration)
-- `cmd+C` Copy item link or page link if the record is open in a DEVONthink document window (configuration)
-- `cmd+shift` Copy Markdown Link
-- `opt+shift` Copy page link (unless set as default in configuration)
-- `opt` Reveal in DEVONthink
+| Modifier 	| Action |
+|:--	|:--	|
+| `cmd`  	| Open in default application or in DEVONthink (configuration) |
+| `cmd+c` 	| Copy item link or page link if the record is open in a DEVONthink document window (configuration) |
+| `cmd+shift` 	| Copy Markdown Link |
+| `opt+shift` 	| Copy page link (unless set as default in configuration) |
+| `opt` 	| Reveal in DEVONthink |
 
 `⌘8` Instances (configuration)
 <details>
@@ -198,7 +201,7 @@ The workflow responds to the following DEVONthink custom metadata identifiers:
 - `mddoi`: DOI
 - `mdisbn`: ISBN
 - `mdlink`: Link
-- `mdlinkedrecords`: Linked Records (configurable) [^2]
+- `mdlinkedrecords`: Linked Records (configuration[^2])
 
 
 ## Annotation Templates
