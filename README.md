@@ -41,8 +41,8 @@
 - Tag Search with auto suggest
 - Document Actions 
     - move, replicate, duplicate, create annotation file, find similar items, etc.
-	- `Extra` Get the BibTeX reference or CSL formatted citation from a DOI or ISBN number.  
-	    The latter can be generated from an existing BibTeX reference.[^1]
+	- >`Extra` Get the BibTeX reference or CSL formatted citation from a DOI or ISBN number.  
+	  > The latter can be generated from an existing BibTeX reference.[^1]
 - Multiple Document Actions 
     - move, replicate, open all, **reciprocal linking**, etc. 
     - > __Note__[^2]
