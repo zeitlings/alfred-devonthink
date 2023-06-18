@@ -202,14 +202,14 @@ If an annotion file already exists for the record, that file is displayed instea
 
 | Modifier 	| Action 	| Configuration 	|
 |---:		|:---		|:---:			|
-| `cmd` 	| Get the BibTeX reference or CSL formatted citation via the *µBib Workflow* `(WIP)` | ⦿ |
+| `cmd` 	| Get the BibTeX reference or CSL formatted citation via the *µBib Workflow* | ⦿ |
 | `cmd+c` 	| Copy to clipboard | |
 
 ### ` ⌘4 ` BibTeX 
 
 | Modifier 	| Action 	| Configuration 	|
 |---:		|:---		|:---:			|
-| `cmd` 	| Get CSL formatted citation via the *µBib Workflow* `(WIP)` | ⦿ |
+| `cmd` 	| Get CSL formatted citation via the *µBib Workflow* | ⦿ |
 | `cmd+c` 	| Copy to clipboard | |
 
 ### ` ⌘7 ⌘8 ` Incoming and Outgoing Links
