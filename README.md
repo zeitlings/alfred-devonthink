@@ -135,10 +135,14 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `opt` Open Database in DEVONthink
 
 <img src="assets/previews/dvn-dbs1.png" width="564px"/>
-<img src="assets/previews/dvn-db-search.png" width="564px"/>
+
+- __⌘1__ `⏎` return key steps into the parent group
+- __⌘2__ `⏎` return key steps into the targeted group
 
 
 ### Search Results
+
+<img src="assets/previews/dvn-db-search.png" width="564px"/>
 
 Press the `⏎` return key to access the [actions](#record-actions) available for the record.
 
