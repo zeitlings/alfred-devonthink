@@ -33,7 +33,7 @@
 **Use B** ` ddvn [ {query} ] `  
 - `ddvn {query}` Initiates a file filter brute-force search (fast)
 
-![](assets/previews/dvn-entry.jpg)
+<img src="assets/previews/dvn-entry.png" width="564px"/>
 
 ## Feature Overview (Selection)
 
@@ -122,21 +122,21 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 <details>
 <summary>Expand for preview</summary>
 
-![](assets/previews/dvn-tagsearch.jpg)
+<img src="assets/previews/dvn-tagsearch.png" width="564px"/>
 </details>
 
 
 ## Entry Point and Search Results
 
+<img src="assets/previews/dvn-entry.png" width="564px"/>
 
-![](assets/previews/dvn-entry.jpg)
 - `default` Enter Database Search
 - `cmd` List all Tags in Database
 - `opt` Open Database in DEVONthink
 
-![](assets/previews/dvn-dbs1.jpg)
+<img src="assets/previews/dvn-dbs1.png" width="564px"/>
+<img src="assets/previews/dvn-db-search.png" width="564px"/>
 
-![](assets/previews/dvn-db-search.jpg)
 
 ### Search Results
 
@@ -156,7 +156,7 @@ Press the `⏎` return key to access the [actions](#record-actions) available fo
 
 ## Record Actions
 
-| ![](assets/previews/dvn-record-action1.jpg) |
+| <img src="assets/previews/dvn-record-action1.png" width="564px"/> |
 |:--:|
 | Record Actions - A |
 
@@ -183,7 +183,8 @@ Press the `⏎` return key to explore the instances, that is, replicants and dup
 <details>
 <summary>Expand to preview</summary>
 
-![](assets/previews/dvn-instances.jpg)
+<img src="assets/previews/dvn-instances.png" width="564px"/>
+
 </details></br>
 
 ### ` ⌘9 ` Create an Annotation File for the Record
@@ -194,7 +195,7 @@ If an annotion file already exists for the record, that file is displayed instea
 
 ---
 
-| ![](assets/previews/dvn-record-action2.jpg) |
+| <img src="assets/previews/dvn-record-action2.png" width="564px"/> |
 |:--:|
 | Record Actions - B |
 
@@ -224,16 +225,24 @@ View incoming or outgoing (wiki) links or mentions.
 
 You can send your selection to the `dvn Universal Action` from either the file system or from within DEVONthink. To act on the records currently selected in DEVONthink, you can also use the hotkey `cmd+shift+D` by default. 
 
-![](assets/previews/dvn-hotkey-dt3-selection.jpg)
-![](assets/previews/dvn-import.jpg)
+<img src="assets/previews/dvn-hotkey-dt3-selection.png" width="564px"/>
+<img src="assets/previews/dvn-import.png" width="564px"/>
+
+The most recently used import location is remembered for quick access. The amount of remembered import locations can be defined with the (hidden) environment variable `import_mem`.
+
 
 ### Buffered Records
 
 You can push records to Alfreds file buffer to perform actions on all of them, such as moving, replicating, or linking them together. 
 
-![](assets/previews/dvn-buffer1.jpg)
-![](assets/previews/dvn-buffer2-universal-action1.jpg)
-![](assets/previews/dvn-buffer3-universal-action2.jpg)
+<img src="assets/previews/dvn-buffer1.png" width="564px"/>
+
+Send all buffered items to the Universal Action interface with ⌥+▶
+
+<img src="assets/previews/dvn-buffer2-universal-action1.png" width="564px"/>
+
+<img src="assets/previews/dvn-buffer3-universal-action2.png" width="564px"/>
+
 
 ## On Reciprocal Linking
 
