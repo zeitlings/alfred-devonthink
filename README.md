@@ -307,6 +307,20 @@ You can create custom templates that will be used when creating an *annotation f
 
 ## Configuration
 
+Some internal configuration options are available via `dvn :c`
+- Open Workflow Configuration
+- Browse Annotation Templates
+- Show Documentation
+- Clear Cache
+
+### Labels
+
+Currently it is not possible to extract the names you have assigned to your labels directly from DEVONthink. However, you can enter them into the text field where they are picked up by the workflow. 
+
+The colored icons for the labels are located in `./icons/labels` and `./icons/labels_flagged`. If you want different colored icons, you have to replace the existing icons with new ones.
+
+
+---
 
 # Notes
 
