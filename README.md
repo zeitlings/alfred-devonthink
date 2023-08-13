@@ -27,8 +27,8 @@
 
 **Use A** ` dvn [ ] [ . ] [ {query} ] `
 - `dvn ` Displays the available databases
-- `dvn .` Displays global actionable options
-- `dvn {query}` Initiates global search
+- `dvn .` Displays global actions
+- `dvn {query}` Initiates a global search
 
 **Use B** ` ddvn [ {query} ] `  
 - `ddvn {query}` Initiates a file filter brute-force search (fast)
@@ -61,6 +61,11 @@
 - Find Groups
 - Show Favorites
 - Show Reading List
+- Today
+- Recently Modified
+- Recently Added
+- Due Soon
+- Overdue
 - Filter Smart Groups
 - Load Workspace
 - Save Workspace
@@ -70,12 +75,16 @@
 **Database Options** Trigger: ` dvn |dbs|2| . `
 
 - Find Groups in Database
-- Access Default Groups
+- Access Default Groups & Filters
     - Inbox
 	- Annotations
 	- Trash
 	- Tags (autocompletes to tag search)
-
+    - Today
+    - Recently Modified
+    - Recently Added
+    - Due Soon
+    - Overdue
 ---
 
 ## Search
@@ -86,6 +95,7 @@ The search behaves the same as in DEVONthink, but by default only returns docume
 - `name:~keyword` 
 - `name:<keyw kind:!ordinarytag` 
 - `keyword {any: tags:affekt*;ratio*}`
+- `judgement label:2` or, for instance, `judgement label:urgent`
 
 <!-- This also allows you set up custom hotkeys by providing the desired query as argument to the workflow input. -->
 
@@ -115,8 +125,8 @@ Tags come in three flavors:
 
 Tag suggestions can be autocompleted to match the above mentioned flavors.
 - `default` the document must have this tag (`#tag`)
-- `cmd` the document must not have this tag (`#!tag`)
-- `opt` the document may have this tag (`#tag?`)
+- `cmd` __⌘__ the document must not have this tag (`#!tag`)
+- `opt` __⌥__ the document may have this tag (`#tag?`)
 
 
 <details>
@@ -131,8 +141,8 @@ Tag suggestions can be autocompleted to match the above mentioned flavors.
 <img src="assets/previews/dvn-entry.png" width="564px"/>
 
 - `default` Enter Database Search
-- `cmd` List all Tags in Database
-- `opt` Open Database in DEVONthink
+- `cmd` __⌘__ List all Tags in Database
+- `opt` __⌥__ Open Database in DEVONthink
 
 <img src="assets/previews/dvn-dbs1.png" width="564px"/>
 
@@ -232,7 +242,7 @@ You can send your selection to the `dvn Universal Action` from either the file s
 <img src="assets/previews/dvn-hotkey-dt3-selection.png" width="564px"/>
 <img src="assets/previews/dvn-import.png" width="564px"/>
 
-The most recently used import location is remembered for quick access. The amount of remembered import locations can be defined with the (hidden) environment variable `import_mem`.
+The most recently used import location is remembered for quick access. The number of remembered import locations can be defined in the Wokflow Configuration.
 
 
 ### Buffered Records
@@ -254,12 +264,14 @@ Send all buffered items to the Universal Action interface with ⌥+▶
 > __Warning__  
 > Potentially replaces preconfigured data if the custom metadata identifier `mdlinkedrecords` is already in use. Change this value in the configuration to avoid conflicts if necessary.
 
+<!-- 
 <details>
 <summary>Expand to see more information</summary>
 
 WIP. For now, make sure the custom metadata field `mdlinkedrecords` is not taken or change it in the configuration to avoid conflicts.
 
-</details>
+</details> 
+-->
 
 
 ## Custom Metadata 
