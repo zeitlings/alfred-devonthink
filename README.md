@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="assets/devonthink_icon.png" width="100" height="100"></br>
     DEVONthink 3 Portal</br>
-    <a href="https://github.com/zeitlings/alfred-devonthink/releases"><img src="https://img.shields.io/github/v/release/zeitlings/alfred-devonthink.svg" alt="GitHub Release"></a>
+    <a href="https://github.com/zeitlings/alfred-devonthink/releases"><img src="https://img.shields.io/github/v/release/zeitlings/alfred-devonthink.svg?logo=alfred&label=download" alt="GitHub Release"></a>
     <!-- <a href="#"><img src="https://img.shields.io/static/v1?label=alpha&message=testing&color=informational"></a> -->
 <!-- <a href="#"><img src="https://img.shields.io/static/v1?label=&message=Work%20in%20Progress&color=red"></a> -->
 
