@@ -4,11 +4,11 @@
     <a href="https://github.com/zeitlings/alfred-devonthink/releases"><img src="https://img.shields.io/github/v/release/zeitlings/alfred-devonthink.svg?logo=alfred&label=download" alt="GitHub Release"></a>
 </h1>
 
-Advanced DEVONthink 4 interface for your databases
-
 <a href='https://ko-fi.com/G2G1IH7RR' target='_blank'><img height='36' align='right' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ---
+
+Advanced DEVONthink 4 interface for your databases
 
 ## Usage
 
