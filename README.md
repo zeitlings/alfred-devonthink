@@ -1,60 +1,48 @@
 <h1 align="center">
     <img src="assets/devonthink_icon.png" width="100" height="100"></br>
-    DEVONthink 3 Portal</br>
+    DEVONthink 4 Portal</br>
     <a href="https://github.com/zeitlings/alfred-devonthink/releases"><img src="https://img.shields.io/github/v/release/zeitlings/alfred-devonthink.svg?logo=alfred&label=download" alt="GitHub Release"></a>
-    <!-- <a href="#"><img src="https://img.shields.io/static/v1?label=alpha&message=testing&color=informational"></a> -->
-<!-- <a href="#"><img src="https://img.shields.io/static/v1?label=&message=Work%20in%20Progress&color=red"></a> -->
-
 </h1>
 
-Advanced DEVONthink 3 interface for your databases. Search files or groups and interact with them through Alfred.
+Advanced DEVONthink 4 interface for your databases.
 
-<!--
-**Use A** ` dvn [ ] [ . ] [ {query} ] `
-<table>
-    <tr>
-	<td align="right"><code>dvn </code></td>
-	<td>No input displays all available databases</td>
-    </tr>
-    <tr>
-	<td align="right"><code>dvn .</code></td>
-	<td>Displays global actionable options</td>
-    </tr>
-    <tr>
-	<td align="right"><code>dvn {query}</code></td>
-	<td>Initiate global search</td>
-    </tr>
-</table>
--->
+## Usage
 
-**Use A** ` dvn [ ] [ . ] [ {query} ] `
-- `dvn ` Displays the available databases
-- `dvn .` Displays global actions
-- `dvn {query}` Initiates a global search
-- `dvn :c` Shows internal configuration
+__Search your databases__ via the `dvn` keyword, using any [prefix](https://download.devontechnologies.com/download/devonthink/3.8.2/DEVONthink.help/Contents/Resources/pgs/appendix-searchprefixes.html), wildcard, or [operator](https://download.devontechnologies.com/download/devonthink/3.8.2/DEVONthink.help/Contents/Resources/pgs/appendix-operators.html) also available in DEVONthink. 
 
-**Use B** ` ddvn [ {query} ] `  
-- `ddvn {query}` Initiates a file filter brute-force search (fast)
+Use the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/) to __import documents__ to a specific location.
+To either jump to the global __group search__, or the active __document winows__, use the `dvng` or `dvna` convenience keywords. 
+Set up the [Hotkey Trigger](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to act on your __current selection__ in DEVONthink.
+Alternatively, use the `ddvn` keyword for a fast brute force query over your documents.
+
+### Usage Details
+
+`dvn [⎵] [ . ] [ query ]`
+
+- `dvn ` Show all databases.
+- `dvn .` Show globally available actions.
+- `dvn query` Search globally in all databases.
+- `dvn ?` Show internal configuration.
 
 <img src="assets/previews/dvn-entry.png" width="564px"/>
 
 ## Feature Overview (Selection)
 
 - Global and Database Search
-- Tag Search with Auto Suggest
-- Document Actions 
+- ~~Tag Search with Auto Suggest~~
+- Document actions 
     - move, replicate, duplicate, create annotation file, find similar items, etc.
 	- >`Extra` Get the BibTeX reference or CSL formatted citation from a DOI, ISBN or jstore URL.  
 	  > CSL formatted citations can also be generated from an existing BibTeX reference.[^1]
-- Multiple Document Actions 
+- Multiple document actions 
     - move, replicate, open all, **reciprocal linking**, etc. 
     - > __Note__[^2]
-- Navigate the Folder Structure
-- Import New Documents to Location
-- Customizable Annotation Templates
-- Colored Labels (customize as needed)
-	- Colored Flags on Labeled Records
-- Copy Page Link for open PDF Documents
+- Navigate the folder structure
+- Import new documents to location
+- Customizable annotation templates
+- Colored labels (customize as needed)
+	- Colored flags on labeled records
+- Copy page link for open pdf documents
 
 
 ## Actionable Options
@@ -67,11 +55,13 @@ Advanced DEVONthink 3 interface for your databases. Search files or groups and i
 - Today
 - Recently Modified
 - Recently Added
+- Recently Opened
 - Due Soon
 - Overdue
 - Filter Smart Groups
 - Load Workspace
 - Save Workspace
+- Delete Workspace
 - Find Records similar to a given String
 	- Affected by the `Score Threshold` configuration variable
 
@@ -105,17 +95,12 @@ The search behaves the same as in DEVONthink, but by default only returns docume
 > __Note__  
 > Within the database root or any folder, typing an asterisk `*` will return the entire contents of that location.
 
-<details>
-	<summary>Path to local documentation for <b>Search Prefixes</b></summary>
-	<pre>file:///Applications/DEVONthink%203.app/Contents/Resources/DEVONthink.help/Contents/Resources/pgs/appendix-searchprefixes.html</pre>
-</details>
-
-<details>
-	<summary>Path to local documentation for <b>Search Operators</b></summary>
-	<pre>file:///Applications/DEVONthink%203.app/Contents/Resources/DEVONthink.help/Contents/Resources/pgs/appendix-operators.html</pre>
-</details></br>
+Reference for [__Search Prefixes__](https://download.devontechnologies.com/download/devonthink/3.8.2/DEVONthink.help/Contents/Resources/pgs/appendix-searchprefixes.html).  
+Reference for [__Search Operators__](https://download.devontechnologies.com/download/devonthink/3.8.2/DEVONthink.help/Contents/Resources/pgs/appendix-operators.html).
 
 ### Tag Search
+  
+> Currently unavailable in Dt4Portal v2.0.0
 
 Queries can be refined with tags at any point. Type the octothorp symbol and start entering the name of the desired tag. The workflow will auto suggest tags from your DEVONthink databases. 
 
