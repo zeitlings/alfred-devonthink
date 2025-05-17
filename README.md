@@ -292,9 +292,13 @@ You can create custom templates that will be used when creating an *annotation f
 
 ## Configuration
 
-Some internal configuration options are available via `dvn :c`
+<img src="assets/previews/dvn-config.png" width="564px"/>
+
+Some internal configuration options are available via `dvn ?`
 - Open Workflow Configuration
 - Browse Annotation Templates
+- Browse Workflow Cache
+- Browse Workflow Data
 - Show Documentation
 - Clear Cache
 
